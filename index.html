@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico" />
+    <title>Lodyana Olga</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <input id="menuCheckbox" type="checkbox" />
+        <a href="/" class="header__logo">
+          <img src="img/logo.svg" alt="Logo" />
+        </a>
+        <div class="header__nav">
+          <a href="#main" class="header__ul">Головна</a>
+          <a href="#about" class="header__ul">Про мене</a>
+          <a href="#cons" class="header__ul">Консультаціі</a>
+          <a href="#diploma" class="header__ul">Дипломи</a>
+          <a href="#contacts" class="header__ul">Контакти</a>
+        </div>
+        <label for="menuCheckbox" class="header__burger-btn">
+          <span class="material-icons icon-menu">menu</span>
+        </label>
+      </div>
+      <a id="main" class="main">
+        <div class="main__img">
+          <img src="img/main_img.png" alt="" />
+        </div>
+        <div class="main__right">
+          <div class="main__title">Ольга Лодяна</div>
+          <div class="main__text">Досвідчений психилог та психотерапевт</div>
+        </div>
+      </a>
+      <a id="about" class="about">
+        <div class="about__left">
+          <div class="about__title">Про мене</div>
+          <div class="about__text">
+            Мене звати Ольга та я дипломований спеціаліст з медичної психології.
+            Надання консультацій та ведення клієнтів з різними видами
+            тривожно-депресивних розладів, ПТСР тощо. Допомагаю клієнтам
+            відновити внутрішню опору, щоб відтворити емоційний баланс і
+            психологічну гармонію.
+          </div>
+        </div>
+        <div class="about__img">
+          <img src="img/about_img.png" alt="" />
+        </div>
+      </a>
+      <a id="cons" class="cons">
+        <div class="cons__title">Типи консультацій</div>
+        <div class="cons__items">
+          <div class="cons__item">
+            <div class="item__img">
+              <img src="img/family.svg" alt="family" />
+            </div>
+            <div class="item__text">
+              Опрацювання родових програм та допомога у побудові гармонійних
+              сімейних відносин.
+            </div>
+          </div>
+          <div class="cons__item">
+            <div class="item__img">
+              <img src="img/heart.svg" alt="Heart" />
+            </div>
+            <div class="item__text">
+              Індивідуальна психотерапевтична техніка та підхід до кожного
+              клієнта з урахуванням його запитів та очікувань від консультацій.
+            </div>
+          </div>
+          <div class="cons__item">
+            <div class="item__img">
+              <img src="img/food.svg" alt="Food" />
+            </div>
+            <div class="item__text">
+              Як сертифікований нутриціолог проводжу персоналізований
+              психотерапевтичний підхід в терапії розладів харчової поведінки.
+            </div>
+          </div>
+        </div>
+      </a>
+      <h1 class="heading-primary">З чим я працюю</h1>
+      <div class="accordion">
+        <dl>
+          <dt>
+            <a
+              href="#accordion1"
+              aria-expanded="false"
+              aria-controls="accordion1"
+              class="accordion-title accordionTitle js-accordionTrigger"
+              >З ким я працюю</a
+            >
+          </dt>
+          <dd
+            class="accordion-content accordionItem is-collapsed"
+            id="accordion1"
+            aria-hidden="true"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur
+              <a href="https://www.google.com">Test</a>adipiscing elit. Morbi eu
+              interdum diam. Donec interdum porttitor risus non bibendum.
+              Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo
+              purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim
+              arcu nec elit faucibus condimentum. Donec facilisis consectetur
+              enim sit amet varius. Pellentesque justo dui, sodales quis luctus
+              a, iaculis eget mauris.
+            </p>
+          </dd>
+          <dt>
+            <a
+              href="#accordion2"
+              aria-expanded="false"
+              aria-controls="accordion2"
+              class="accordion-title accordionTitle js-accordionTrigger"
+            >
+              Над чим я працюю</a
+            >
+          </dt>
+          <dd
+            class="accordion-content accordionItem is-collapsed"
+            id="accordion2"
+            aria-hidden="true"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+              interdum diam. Donec interdum porttitor risus non bibendum.
+              Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo
+              purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim
+              arcu nec elit faucibus condimentum. Donec facilisis consectetur
+              enim sit amet varius. Pellentesque justo dui, sodales quis luctus
+              a, iaculis eget mauris.
+            </p>
+          </dd>
+          <dt>
+            <a
+              href="#accordion3"
+              aria-expanded="false"
+              aria-controls="accordion3"
+              class="accordion-title accordionTitle js-accordionTrigger"
+            >
+              З чим я не працюю
+            </a>
+          </dt>
+          <dd
+            class="accordion-content accordionItem is-collapsed"
+            id="accordion3"
+            aria-hidden="true"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+              interdum diam. Donec interdum porttitor risus non bibendum.
+              Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo
+              purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim
+              arcu nec elit faucibus condimentum. Donec facilisis consectetur
+              enim sit amet varius. Pellentesque justo dui, sodales quis luctus
+              a, iaculis eget mauris.
+            </p>
+          </dd>
+        </dl>
+      </div>
+      <a id="diploma" class="diploma">
+        <div class="dimploma__img">
+          <img src="img/diploma.png" alt="Diploma" />
+        </div>
+        <div class="diploma__right">
+          <div class="diploma__title">Мій диплом</div>
+          <div class="diploma__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit sapien at porta hendrerit. Fusce blandit facilisis urna,
+            quis efficitur diam finibus id. Cras at ipsum a augue fringilla
+            feugiat.
+          </div>
+        </div>
+      </a>
+      <a id="contacts" class="contacts">
+        <div class="contacts__title">Контакти</div>
+        <a href="tel:+38 050 301 9357" class="contacts__phone">
+          <div class="contacts__phone-img">
+            <img src="img/phone.svg" alt="Phone" />
+          </div>
+          <div class="contacts__phone-text">+380503019357</div>
+        </a>
+        <a href="mailto:olga86bondarenko@gmail.com" class="contacts__mail">
+          <div class="contacts__mail-img">
+            <img src="img/mail.svg" alt="Mail" />
+          </div>
+          <div class="contacts__mail-text">olga86bondarenko@gmail.com</div>
+        </a>
+        <div class="contacts__nav">
+          <a href="/" class="contacts__ul">
+            <img src="img/telegram.svg" alt="telegram" />
+          </a>
+          <a
+            href="https://www.instagram.com/olga_psyxolog?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            class="contacts__ul"
+          >
+            <img src="img/instagram.svg" alt="instagram" />
+          </a>
+        </div>
+      </a>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="footer">
+          <div class="footer__nav">
+            <a href="#main" class="footer__ul">Головна</a>
+            <a href="#about" class="footer__ul">Про мене</a>
+            <a href="#cons" class="footer__ul">Консультаціі</a>
+            <a href="#diploma" class="footer__ul">Дипломи</a>
+            <a href="#contacts" class="footer__ul">Контакти</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
